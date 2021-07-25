@@ -5,7 +5,7 @@ class Notification {
       type: 'success',
       layout: 'topRight',
       text: 'Successfully Done!',
-      timeout: 1000,
+      timeout: 2000,
     }).show();
   }
 
@@ -14,7 +14,7 @@ class Notification {
       type: 'alert',
       layout: 'topRight',
       text: 'Are you Sure?',
-      timeout: 1000,
+      timeout: 2000,
     }).show();
   }
 
@@ -23,7 +23,7 @@ class Notification {
       type: 'alert',
       layout: 'topRight',
       text: 'Something Went Wrong!',
-      timeout: 1000,
+      timeout: 2000,
     }).show();
   }
 
@@ -32,7 +32,7 @@ class Notification {
       type: 'warning',
       layout: 'topRight',
       text: 'Opps Wrong!',
-      timeout: 1000,
+      timeout: 2000,
     }).show();
   }
 
